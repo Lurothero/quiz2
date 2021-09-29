@@ -1,6 +1,5 @@
-$(document).ready(function(){
-
-
+$(document).ready(() => 
+{ 
     $('.paragraph').hide();
 
     $("#readme").on('click',() => {
@@ -12,5 +11,17 @@ $(document).ready(function(){
        });
       
 
+       $('.paragraph').on('mouseenter',() => {
 
-  }); 
+        $('.paragraph').css("background-color", "green");
+        
+
+
+       })
+
+
+
+});
+
+
+
